@@ -12,3 +12,8 @@ console.log(valone)
 //Assignment operator
 // = is a assignment operator
 let valtwo = 3
+
+//comparision
+let pw = 3
+let pwskills = 3
+console.log(pw == pwskills)
