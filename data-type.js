@@ -1,9 +1,9 @@
-//primitive(STACK)
+//primitive(STACK) -- stored in STACK
 const firstname = "Rupam"
 let loggedin = false
 const score = 22
 
-//Reference (non-primitive) - Objects(HEAP)
+//Reference (non-primitive) - Objects(HEAP) --- stores in HEAP
 // Arrays
 // objects
 // functions
