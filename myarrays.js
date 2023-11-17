@@ -1,5 +1,5 @@
 //non primitive
-const myarray = [1 , 2 , 3 , 4 , 5]
+const myarray = [1 , 2 , 3 , 4 , "Rupam"]
 const mynewArray = new Array(1 , 2 , 3 , 4 , 5)
 console.log(myarray[1])
 console.log(myarray.length)
