@@ -57,4 +57,49 @@ else if(star == 7){
 }
 
 
+//login system
+
+//falsy values
+/*
+
+
+false
+0       (-0 and BigInt 0n are also falsy values)
+""
+null
+undefined
+NaN
+
+
+*/
+
+const email = "Rupam@gmail.com"
+if(email){
+    console.log("Pls enter your password")
+}
+else{
+    console.log("Enter your email")
+}
+
+
+
+//if user provides email and password  then allow login else ask for it.
+const email1 = "Rupam@gmail.com"
+const password = "abc"
+if(email && password){
+    console.log("Logged in");
+}
+else{
+    console.log("Enter email and password")
+}
+// allow user to sign in with github or google
+const githubLoginToken = ""
+const googleLoginToken = ""
+if(githubLoginToken || googleLoginToken){
+    console.log("Logged in");
+}
+else{
+    console.log("pls login again");
+}
+
 
