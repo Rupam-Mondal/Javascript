@@ -102,4 +102,14 @@ else{
     console.log("pls login again");
 }
 
+let age = 15
+if(age >= 18){
+    console.log("You get driving license");
+}
+else{
+    console.log("Not possible");
+}
+
+const ans = age >= 18 ? true : age >=16 ? "You will get a learner license" : "No chance man";    // (nested)ternary opertor
+console.log(ans);
 
