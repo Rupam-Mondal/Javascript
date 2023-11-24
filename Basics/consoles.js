@@ -1,2 +1,3 @@
-console.log("Rupam")
-console.error("Rupam")
+console.log("Hello world")
+console.error("Hello world")
+console.info("Hello")
