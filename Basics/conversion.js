@@ -21,3 +21,7 @@ console.log(typeof a);
 console.log(typeof b);
 console.log(typeof NaN);
 console.log(typeof null);
+
+
+console.log(parseInt("40")) //output will be 40
+console.log(parseInt("years 40")) //output will be NaN
