@@ -9,3 +9,8 @@ console.log(mynewArray)
 mynewArray.push("Hi man")
 console.log(mynewArray)
 console.log(mynewArray.join("-"))
+
+
+const arr = [1 , 2 , 3 , 4 , 'w' , "Rupam"]
+console.log(typeof arr);// object will be the output
+console.log(arr);
