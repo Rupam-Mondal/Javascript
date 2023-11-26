@@ -10,6 +10,6 @@ const namedFunction = function exec() {
 
 const anonymousFunction = function exec() {
     const res = isEvenorodd(11);
-}                                           
+}
 const result = namedFunction()
 console.log();
