@@ -1,6 +1,11 @@
 //A JavaScript callback is a function which is to be executed 
 //after another function has finished execution.
 
+//processarray is higher order function(this type of function take one or more function as argument)
+
+//callback is a function which is an actual argument, we pass as a argument.
+
+
 
 function processarray(array , fn) { //fn is function passed as arguments
     for(let i = 0 ; i < array.length ; i++){
