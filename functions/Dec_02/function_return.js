@@ -9,4 +9,4 @@ function fun() {
 
 
 const text = fun();
-text()
+text();
