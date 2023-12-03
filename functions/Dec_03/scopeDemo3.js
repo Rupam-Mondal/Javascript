@@ -12,6 +12,7 @@ function fun() {
 function gun() {
     var student = "Karthik";
     console.log("Welcome to the class", student , teacher); //gun scope
+    console.log(content);
 }
 
 fun();
