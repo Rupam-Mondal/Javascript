@@ -12,3 +12,9 @@ downloadscript();
     }
     downloadscript();
 }) ();
+
+
+
+(function greet(num) {
+    console.log(num + 1);
+})(5);
