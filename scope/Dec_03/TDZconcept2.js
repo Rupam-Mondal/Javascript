@@ -4,7 +4,7 @@ function fun() {
     console.log(x);
 }
 function gun() {
-    console.log(x);//Temporal dead zone
+    console.log(x);     //Temporal dead zone
     let x = 10;
     console.log(x);
 }
