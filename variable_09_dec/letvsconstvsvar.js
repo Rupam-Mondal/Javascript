@@ -11,7 +11,7 @@
 
 function name1() {
     const obj = {x : 10 , y : 20};
-    obj = {z : 50} // not allowed bacause we are changing the reference
+    obj = {z : 50} // not allowed bacause we are changing the reference.
     console.log(obj);
 }
 name1();
