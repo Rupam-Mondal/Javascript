@@ -14,7 +14,7 @@ function name1() {
     obj = {z : 50} // not allowed bacause we are changing the reference
     console.log(obj);
 }
-name1()
+name1();
 function opjectval() {
     const obj = {x : 10 , y : 20}
     console.log(obj);
