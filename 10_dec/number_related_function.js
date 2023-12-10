@@ -10,3 +10,13 @@ console.log(x.toString(8)); //octal number
 
 //binary to decimal
 console.log(parseInt("1101"  , 2)); // second argument is base
+
+
+//NaN
+//if i search a number on array not found that then what should i return 
+
+//one option is return -1 , in python type program -1 index is also present
+//undefined or null , these are not made for this type of use case
+//in this type case js use NaN.. type of NaN is Number ans also NaN != NaN
+
+console.log(NaN == NaN); // always false
