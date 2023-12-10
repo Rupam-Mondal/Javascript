@@ -20,3 +20,8 @@ console.log(parseInt("1101"  , 2)); // second argument is base
 //in this type case js use NaN.. type of NaN is Number ans also NaN != NaN
 
 console.log(NaN == NaN); // always false
+
+//number precision
+const num = 10.445
+console.log(num.toPrecision(4));// number og total digit
+console.log(num.toFixed(1)); // number of digit after .
