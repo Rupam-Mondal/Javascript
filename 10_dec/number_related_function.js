@@ -25,3 +25,10 @@ console.log(NaN == NaN); // always false
 const num = 10.445
 console.log(num.toPrecision(4));// number og total digit
 console.log(num.toFixed(1)); // number of digit after .
+
+
+//10.toString() can not be used because 10 is primitive value that does not depend on any method
+//but how can we use x.toString() in this case internally js tries to convert x to obj
+
+const op = (10).toString();
+console.log(op);
