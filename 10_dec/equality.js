@@ -9,3 +9,5 @@ console.log(11 === "11"); //no coercion process is being done
 
 const x = {a : 10 , b : 20}
 console.log("Rupam" + x); // why this type of behaviour explore + in
+
+console.log(2 == true);
