@@ -17,3 +17,4 @@ const modified = products.map((product) => {
     return {id : product.id}
 })
 console.log(modified);
+//read some function as well

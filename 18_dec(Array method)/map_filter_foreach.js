@@ -22,3 +22,11 @@ numbers.forEach(num => {
     }
 });
 console.log(sumOdd); // answer will be 9
+
+//task 4
+
+const arr = [1,400,5,6,9]
+const result = arr.every((element) => {
+    console.log(element);
+    return element < 100;
+}); //if every function gets false then it stops iterating
