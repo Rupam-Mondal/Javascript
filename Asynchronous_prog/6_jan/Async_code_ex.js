@@ -1,3 +1,4 @@
+//some features are given by Runtime environment
 console.log("Hey bro");
 
 console.log("Starting to excecute");
