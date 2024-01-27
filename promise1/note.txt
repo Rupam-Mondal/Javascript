@@ -12,3 +12,8 @@ promise:-
 
 
 priority of micro task quese is more than call back queue.
+
+when rejection handler is missing we can use "catch" function..
+
+
+you can use .catch in btn of chaining because it also returns a promise..
