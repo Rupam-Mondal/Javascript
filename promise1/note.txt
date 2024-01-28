@@ -17,3 +17,6 @@ when rejection handler is missing we can use "catch" function..
 
 
 you can use .catch in btn of chaining because it also returns a promise..
+
+research promise based methos in mdn
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all
