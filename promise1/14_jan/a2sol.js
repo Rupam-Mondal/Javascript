@@ -8,7 +8,7 @@ function downloader(url, cb) {
 }
 
 function writeFile(data, cb) {
-    console.log("Started downloading from url");
+    console.log("Started writing from url");
     setTimeout(() => {
         console.log("Writing completed");
         let text = "some text";
