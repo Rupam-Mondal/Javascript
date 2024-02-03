@@ -1,0 +1,9 @@
+constructor :- this is the first function that executes when we create an oject
+
+new keyword :-
+1--> It first create plain js object.
+2--> it does some kind of linking.
+3--> It gives access of the newly created object to the this keyword
+4--> Starts execution of constructor function. if the constructor function do not return anything
+     then the constructor function returns the newly created object. if you return object then the 
+     object mentioned here will be returned
