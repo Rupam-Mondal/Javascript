@@ -1,0 +1,12 @@
+async function always return a promise
+while excution if function hits await it it will throw you from function
+
+
+after fulfilling the promise then it only will go to the function
+but if main thread is block then it will not go to the funtion (remember it carefully)
+
+
+if you reject any function it will terminate the code execution
+so that is the rason you have to use try and catch block
+
+It can only be used inside an async function 
