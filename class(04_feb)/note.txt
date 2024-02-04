@@ -1,0 +1,15 @@
+this keyword is far far diff from java and c++.
+
+it can be used in classes and object and also in function
+
+what does this keyword refer to??
+--> i) wherever you see this keyword is being used without arrow functions
+       at those places this keyword refers to call site. site(whoever is calling your this)
+        ex :- demo1.js and demo2.js
+
+    ii) for arrow functions this keyword doesn't refer to call site but instead is resolved
+        throught lexical scoping.
+        ex :- demo3.js.. for arrow it is so interesting
+
+//for scope visualize
+//https://jsbubbl.es/bubbles#ZnVuY3Rpb24gYWRkT2RkcyguLi5udW1iZXJzKSB7CiAgdmFyIHRvdGFsID0gMDsKICBmb3IgKGxldCBudW1iZXIgb2YgbnVtYmVycykgewogICAgaWYgKG51bWJlciAlIDIgIT09IDApIHsKICAgICAgdG90YWwgKz0gbnVtYmVyOwogICAgfQogIH0KICByZXR1cm4gdG90YWw7Cn0KCmZ1bmN0aW9uKiBtYWtlTGlzdChuKSB7CiAgbGV0IGkgPSAwOwogIHdoaWxlIChpIDwgbikgewogICAgeWllbGQgaSsrOwogIH0KfQoKY29uc3Qgc2Vjb25kc0luSG91ciA9IGFkZE9kZHMoLi4ubWFrZUxpc3QoMTIwKSk7Cg==
