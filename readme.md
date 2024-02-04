@@ -13,4 +13,4 @@ Practice resource:
  - https://leetcode.com/problems/promise-time-limit/description/
 
 Learn resources:
-    -[You do not know js]https://github.com/getify/You-Dont-Know-JS
+ - [You do not know js]https://github.com/getify/You-Dont-Know-JS
