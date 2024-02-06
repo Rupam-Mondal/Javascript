@@ -27,17 +27,8 @@ function makeTea() {
 async function breakfast() {
     console.log("Preparing breakfast...");
 
-    const egg = await makeEgg();
-    console.log(egg);
 
-    const toast = await makeToast();
-    console.log(toast);
-
-    const tea = await makeTea();
-    console.log(tea);
-
-
-    Promise.all([egg , toast , tea]).then(() => {
+    await Promise.all([makeEgg() , makeToast() , makeTea()]).then(() => {
         console.log("Breakfirst is ready to eat");
     })
 }
