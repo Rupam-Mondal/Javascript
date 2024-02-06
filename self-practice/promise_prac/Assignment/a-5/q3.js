@@ -3,7 +3,7 @@ function makeEgg() {
     return new Promise((res , rej) => {
         setTimeout(() => {
             res("Egg is ready to eat");
-        } , 4000);
+        }, Math.floor(Math.random() * 4000) + 1000);
     })
 }
 
@@ -12,7 +12,7 @@ function makeToast() {
     return new Promise((res, rej) => {
         setTimeout(() => {
             res("Toast making done");
-        }, 3000);
+        }, Math.floor(Math.random() * 4000) + 1000);
     });
 }
 function makeTea() {
@@ -20,7 +20,7 @@ function makeTea() {
     return new Promise((res, rej) => {
         setTimeout(() => {
             res("Tea is ready");
-        }, 2000);
+        }, Math.floor(Math.random() * 4000) + 1000);
     })
 }
 
