@@ -4,6 +4,7 @@ const player = {
 }
 
 const details = function (x , y) {
+    console.log(x + y);
     console.log(this.firstname);
 }
 

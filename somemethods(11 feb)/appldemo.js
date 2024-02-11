@@ -4,8 +4,9 @@ const player = {
 }
 
 const details = function (x, y) {
+    console.log(x + y);
     console.log(this.firstname);
 }
 
-details.call(player, [10 , 20]); // it works same but it just takes 
+details.apply(player, [10 , 20]); // it works same but it just takes 
 //an array
