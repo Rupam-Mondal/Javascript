@@ -31,3 +31,19 @@ console.log(person["name"])
 for(let i in person){
     console.log(i + ': ' + person[i])
 }
+
+// for .. of loop
+
+const array = [1 , 2, 3]
+for(let a of array){
+    console.log(a)
+}
+
+// for each loop
+
+array.forEach((number , index , a) => {
+    number = number * 2
+    a[index] = number
+})
+
+console.log(array);
